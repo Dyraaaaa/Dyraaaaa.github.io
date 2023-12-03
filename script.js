@@ -4,12 +4,12 @@ const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
-yesBtn.addEventListener("click", ()=> {
-    question.innerHTML = "Utututut, Sayang kamu jugaaaa";
+yesBtn.addEventListener("click", ( )=> {
+    question.innerHTML = "Ututu, Sayang kamu juga";
     gif.src = "https://media.tenor.com/9_Cuwoj-m5wAAAAi/cute-cat.gif";
 });
 
-noBtn.addEventListener("mouseover", ()=> {
+noBtn.addEventListener("mouseover", ( )=> {
     const noBtnRect = noBtn.getBoundingClientRect();
     const maxX = window.innerWidth - noBtnRect.width;
     const maxY = window.innerHeight - noBtnRect.height;
